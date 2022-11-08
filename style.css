@@ -509,11 +509,11 @@ h3 {
 }
 
 .footer-logo {
-  height: 400px;
+  height: 350px;
   position: absolute;
   right: -1px;
-  margin-top: 50px;
-  z-index: -1;
+  margin-top: 100px;
+
 }
 
 .space {
