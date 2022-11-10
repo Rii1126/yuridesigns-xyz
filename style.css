@@ -78,6 +78,7 @@ h3 {
   padding: 15px;
   color: #21272F;
   font-weight: 500;
+  transition: 0.4s;
 }
 
 .nav-links:hover {
@@ -104,6 +105,7 @@ h3 {
   color: #EBEEF0;
   background-color: #285574;
   cursor: pointer;
+  transition: 0.4s;
 }
 
 .grid-columns {
@@ -150,6 +152,7 @@ h3 {
 
 .main-button:hover {
   opacity: 0.8;
+  transition: 0.4s;
 }
 
 .com-p {
@@ -163,18 +166,19 @@ h3 {
   margin: 60px 0 0 0;
   display: flex;
   align-items: center;
-  
 }
 
 .social-image {
   margin: 0 10px 0 0;
   cursor: pointer;
+  transition: o.4s;
 }
 
 .social-image:hover {
   margin: 0 10px 0 0;
   cursor: pointer;
   opacity: .8;
+  transition: o.4s;
 }
 
 .right-wrapper {
@@ -314,6 +318,7 @@ h3 {
   box-shadow: 2px 4px 15px #21272F;
   cursor: pointer;
   opacity: 0.8;
+  transition: 0.4s;
 }
 
 .thumbnail {
@@ -470,6 +475,7 @@ h3 {
   font-family: outfit;
   background-color: #5EF2F2;
   margin: 20px 10px 20px 0;
+  transition: 0.4s;
 }
 
 .form-paragraph {
