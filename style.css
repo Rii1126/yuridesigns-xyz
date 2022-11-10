@@ -225,6 +225,7 @@ h3 {
 
 .third {
   height: 700px;
+  margin: 20px 0 60px 0;
 }
 
 .se-title {
@@ -392,10 +393,6 @@ h3 {
     "a d e"
     "b d f"
     "c d g";
-}
-
-.ce-image {
-
 }
 
 .ex-sub-title {
