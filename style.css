@@ -9,6 +9,10 @@
   color: #21272F;
 }
 
+html {
+  scroll-behavior: smooth;
+ }
+
 body {
   background-color: #EBEEF0;
 }
