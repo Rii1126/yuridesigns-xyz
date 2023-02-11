@@ -1,304 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16"/>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/ui.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16"/>
 
-  <!-- Facebook sharing meta tags -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Yuri Designs" />
-  <meta property="og:description" content="" />
-  <meta property="og:url" content="" />
-  <meta property="og:image" content="" />
-  <meta property="og:site_name" content="Yuri Designs" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+    <!-- Facebook sharing meta tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Yuri Designs" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="Yuri Designs" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
-  <!-- Twitter sharing meta tags -->
-  <meta name="twitter:title" content="Yuri Designs" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:description" content="" />
-  <meta name="twitter:image" content="" />
-  <meta name="description" content="" />
+    <!-- Twitter sharing meta tags -->
+    <meta name="twitter:title" content="Yuri Designs" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="description" content="" />
 
-  <title>Yuri Designs</title>
-</head>
-
-<body>
-  <section id="INTRO" class="hero">
-  <header class="clearfix">
-    <div class="container">
-      <nav class="nav-bar">
-        <a href="#"><img class="logo" src="images/Logo.svg"></a>
-        <ul class="nav-menu">
-          <li><a class="nav-links" href="#INTRO">INTRO</a></li>
-          <li><a class="nav-links" href="#SERVICES">SERVICES</a></li>
-          <li><a class="nav-links" href="#PORTFOLIO">PORTFOLIO</a></li>
-          <li><a class="nav-links" href="#EXPERIENCE">EXPERIENCE</a></li>
-          <li><a class="nav-links" href="#CONTACTS">CONTACTS</a></li>
-          <a href="PDF/CV-Marc Yuri Esber.pdf" download><button class="btn">
-            DOWNLOAD CV
-          </button>
-        </a>
-        </ul>
-      </nav>
+    <title>Yuri Designs</title>
+    <link
+      rel="icon"
+      href="/images/favicon.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/ui.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/oldstyle.css">
+  </head>
+  <body>
+    <div class="loading active">
+      <div class="loading-container">
+        <img src="images/Logo.svg" alt="loading" />
+      </div>
     </div>
-  </header>
-    <div class="container">
-      <div class="grid-columns">
-        <div class="left-wrapper">
+    <div class="main">
+      <header class="clearfix">
+        <div class="container d-flex f-align-center f-justify-between">
+          <a href="/" class="logo">
+            <img src="/images/logo.svg" alt="logo" title="DogeStack" />
+          </a>
+          <ul class="nav">
+            <li class="nav-logo"><img src="/images/logo.svg" alt="" /></li>
+            <li><a href="#first">INTRO</a></li>
+            <li><a href="#second">SERVICES</a></li>
+            <li><a href="#third">PORTFOLIO</a></li>
+            <li><a href="#roadmap">EXPERIENCE</a></li>
+          </ul>
+        </div>
+        <div id="nav-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </header>
+
+      <section
+        class="hero container-wide animate"
+        id="first"
+        data-id="first"
+        data-index="1"
+      >
+        <div class="container d-flex f-align-center mt-100">
+          <div class="w-50 hero-title">
             <div class="wc-box">
               <p class="wc-text">
                 Welcome! I'm
               </p>
             </div>
-            <h1>
-              Marc Yuri Esber
+            <h1
+              class="text-left animate-elem animate-fadeIn animate-scale-from-big animate-delay-02"
+            >
+            Marc Yuri Esber
             </h1>
-            <p class="title-paragraph">
-              UI/UX Designer
+            <p
+              class="text-left animate-elem animate-fadeIn animate-scale-from-big animate-delay-05"
+            >
+            Developer & UI/UXDesigner
             </p>
-            <p class="main-paragraph">
-              Hi! I’m a UI/UX Designer creating awesome looking designs with great concept.
+            <p
+              class="text-left animate-elem animate-fadeIn animate-scale-from-big animate-delay-05"
+            >
+            Hi! I’m a UI/UX Designer creating awesome looking designs with great concept.
             </p>
-            <button class="main-button">
-              LETS TALK
-            </button>
-            <div class="social-image-wrapper">
+            
+            <div
+              class="hero-cta animate-elem animate-fadeIn p-relative animate-slideFromBottom animate-delay-05"
+            >
+              <a href="" class="btn btn-dark mr-10">DOWNLOAD CV</a>
+            </div>
+
+            <div class="social-image-wrapper animate-elem animate-fadeIn p-relative animate-slideFromBottom animate-delay-05">
               <p class="com-p">Check Out My</p>
               <a href="https://www.instagram.com/yuri.uidesign" target="_blank"><img class="social-image" src="images/instagram.svg"></a>
               <a href="https://www.behance.net/marcyuriesber" target="_blank"><img class="social-image" src="images/behance.svg"></a>
               <a href="https://dribbble.com/zenzenmoby" target="_blank"><img class="social-image" src="images/dribble.svg"></a>
             </div>
           </div>
+          <div
+            class="hero-img w-50 d-flex f-justify-center animate-elem animate-fadeIn animate-scale-from-big animate-delay-03"
+          >
+          <img src="images/character.svg" alt="">
+        </div>
+      </section>
 
-          <div class="right-wrapper">
-            <img class="character" src="images/character.svg">
+    <section class="second">
+      <div class="container">
+        <div class="second-bg">
+          <div class="info-wrapper">
+            <h2>02</h2>
+            <p class="info-paragraph">Years Experience</p>
+          </div>
+          <div class="info-wrapper">
+            <h2>15</h2>
+            <p class="info-paragraph">Clients</p>
+          </div>
+          <div class="info-wrapper">
+            <h2>20</h2>
+            <p class="info-paragraph">Projects</p>
+          </div>
+          <div class="info-wrapper">
+            <h2>04</h2>
+            <p class="info-paragraph">Completed Web Designs</p>
           </div>
         </div>
       </div>
-  </section>
-  <section class="second">
-    <div class="container">
-      <div class="second-bg">
-        <div class="info-wrapper">
-          <h2>02</h2>
-          <p class="info-paragraph">Years Experience</p>
-        </div>
-        <div class="info-wrapper">
-          <h2>15</h2>
-          <p class="info-paragraph">Clients</p>
-        </div>
-        <div class="info-wrapper">
-          <h2>20</h2>
-          <p class="info-paragraph">Projects</p>
-        </div>
-        <div class="info-wrapper">
-          <h2>04</h2>
-          <p class="info-paragraph">Completed Web Designs</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="SERVICES" class="third">
-    <div class="container">
-      <div class="title-wrapper">
-        <h1 class="se-title">SERVICES</h1>
-        <p class="title-paragraph">Through 3D graphics and web design, 
-          I was able to broaden my interests and my skill set.
-        </p>
-      </div>
+    </section>
 
-        <div class="se-wrapper">
-          <div class="se-box-wrapper">
-            <img class="icons" src="images/uiux.svg">
-            <h3 class="se-sub-title">
-              UI/UX Design
-            </h3>
-            <p class="se-paragraph">Capable of producing a top-notch UI/UX Design for the team and
-              providing its users with an excellent, cool interaction.
-              </p>
-          </div>
-          <div class="se-box-wrapper">
-            <img class="icons" src="images/3dabstract.svg">
-            <h3 class="se-sub-title">
-              UI/UX Design
-            </h3>
-            <p class="se-paragraph">Can create amazing 3D icons, 
-              abstract objects, avatars, and motion graphcs.
-              </p>
-          </div>
+    <section id="SERVICES" class="third">
+      <div class="container">
+        <div class="title-wrapper">
+          <h1 class="se-title">SERVICES</h1>
+          <p class="title-paragraph">Through 3D graphics and web design, 
+            I was able to broaden my interests and my skill set.
+          </p>
+        </div>
 
-          <div class="se-box-wrapper">
-            <img class="icons" src="images/webdesign.svg">
-            <h3 class="se-sub-title">
-              UI/UX Design
-            </h3>
-            <p class="se-paragraph">Has over 2 years of experience 
-              and is capable of implementing on the surface web.
-              </p>
+          <div class="se-wrapper">
+            <div class="se-box-wrapper">
+              <img class="icons" src="images/uiux.svg">
+              <h3 class="se-sub-title">
+                UI/UX Design
+              </h3>
+              <p class="se-paragraph">Capable of producing a top-notch UI/UX Design for the team and
+                providing its users with an excellent, cool interaction.
+                </p>
+            </div>
+            <div class="se-box-wrapper">
+              <img class="icons" src="images/3dabstract.svg">
+              <h3 class="se-sub-title">
+                UI/UX Design
+              </h3>
+              <p class="se-paragraph">Can create amazing 3D icons, 
+                abstract objects, avatars, and motion graphcs.
+                </p>
+            </div>
+
+            <div class="se-box-wrapper">
+              <img class="icons" src="images/webdesign.svg">
+              <h3 class="se-sub-title">
+                UI/UX Design
+              </h3>
+              <p class="se-paragraph">Has over 2 years of experience 
+                and is capable of implementing on the surface web.
+                </p>
+            </div>
           </div>
         </div>
+        </div>
       </div>
-      </div>
-    </div>
-  </section>
-  <section id="PORTFOLIO" class="fourth">
-    <div class="container">
-      <div class="title-wrapper">
-        <h1 class="po-title">
-          PORTFOLIO
-        </h1>
-        <p class="title-paragraph">
-          I have been incorporating all of my projects and continuing
-           to get better as I pick up new skills from everyone I come 
-           into contact with.
-        </p>
-           <div class="se-wrapper">
-            <div class="po-box-wrapper">
-              <a href="https://www.behance.net/gallery/152119963/Digital-Marketing-Landing-Page-Design" target="_blank">
-                <img class="thumbnail" src="images/Thumbnail 1.svg">
+    </section>
+
+    <section id="PORTFOLIO" class="fourth">
+      <div class="container">
+        <div class="title-wrapper">
+          <h1 class="po-title">
+            PORTFOLIO
+          </h1>
+          <p class="title-paragraph">
+            I have been incorporating all of my projects and continuing
+            to get better as I pick up new skills from everyone I come 
+            into contact with.
+          </p>
+            <div class="se-wrapper">
+              <div class="po-box-wrapper">
+                <a href="https://www.behance.net/gallery/152119963/Digital-Marketing-Landing-Page-Design" target="_blank">
+                  <img class="thumbnail" src="images/Thumbnail 1.svg">
+                </a>
+              </div>
+              <div class="po-box-wrapper">
+              <a href="https://www.behance.net/gallery/151955033/Marketing-Academic-Web-Designs" target="_blank">
+                <img class="thumbnail" src="images/Thumbnail 2.svg">
               </a>
-            </div>
-            <div class="po-box-wrapper">
-            <a href="https://www.behance.net/gallery/151955033/Marketing-Academic-Web-Designs" target="_blank">
-              <img class="thumbnail" src="images/Thumbnail 2.svg">
-            </a>
-            </div>
-  
-            <div class="po-box-wrapper">
-              <a href="https://www.behance.net/gallery/151890451/Web3-NFT-Staking-Landing-Page" target="_blank">
-                <img class="thumbnail" src="images/Thumbnail 3.svg">
-              </a>
-            </div>
+              </div>
+    
+              <div class="po-box-wrapper">
+                <a href="https://www.behance.net/gallery/151890451/Web3-NFT-Staking-Landing-Page" target="_blank">
+                  <img class="thumbnail" src="images/Thumbnail 3.svg">
+                </a>
+              </div>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="EXPERIENCE" class="fifth">
+      <div class="container">
+        <div class="title-wrapper">
+          <h1 class="po-title">
+            EXPERIENCE
+          </h1>
+          <p class="title-paragraph">
+            Work Experience & Projects
+          </p>
+          </div>
+
+          <div class="grid">
+          <div class="a box">
+            <p class="title-paragraph">
+              Since 2020, I've created a ton of designs, 
+              building my profession with Vegaswap as I 
+              mature and get new knowledge through creating.
+            </p>
+          </div>
+          <div class="b not-box">
+            <h1 class="ex-sub-title">
+              UI/UX  Designer
+            </h1>
+            <p class="special-title-paragraph">
+              Junior UI Designer
+            </p>
+          </div>
+          <div class="c box">
+            <p class="title-paragraph">
+              Building several 3D designs and spending endless 
+              hours learning has helped me become one of the industry's 
+              finest 3D designers.
+            </p>
+          </div>
+
+          <div class="d divider">
+            <img class="ce-image" src="images/center.svg">
+          </div>
+
+          <div class="e not-box">
+            <h1 class="ex-sub-title">
+              Website Designer
+            </h1>
+            <p class="ex-title-paragraph">
+              Junior Website Designer
+            </p>
+          </div>
+          <div class="f box">
+            <p class="title-paragraph">
+              I've completed some personal projects that are 
+              still relatively young, but I am aware of the 
+              effort and commitment required to complete a project.
+            </p>
+          </div>
+          <div class="g not-box">
+            <h1 class="ex-sub-title">
+              3D Graphic Artist
+            </h1>
+            <p class="ex-title-paragraph">
+              Owned Project
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <footer id="CONTACTS" class="footer">
+      <div class="container">
+        <div class="form-wrapper">
+
+      <div class="fr-content">
+        <h2 class="form-heading">Fill up the form right here</h2>
+
+        <form class="form-size" action="">
+          <div class="form-group">
+            <label for="firstName"></label>
+            <input type="text" id="firstName" name="firstName">
+          </div>
+          
+          <div class="form-group">
+            <label for="lastName"></label>
+            <input type="text" id="lastName" name="lastname">
+          </div>
+          
+          <div class="form-group-email">
+            <label for="email"></label>
+            <input type="text" id="email" name="email">
+          </div>
+
+          <div class="form-group">
+            <label for="message"></label>
+            <textarea name="type" id="message" cols="30" rows="10"></textarea>
+          </div>
+        </form>
+        <button class="send-button">SEND MESSAGE</button>
+      </div>
+      <div class="form-content">
+        <h2 class="form-check">CHECK US RIGHT HERE!</h2>
+        <p class="form-paragraph">
+          We can provide elegantly crafted solutions to assist you advance your project. 
+          If our ideals are compatible, I'd be pleased to work with you to make your initiative
+          a success. Use the form or send an email to contact@hexagon.com to get in touch with us.
         </p>
+        <div class="social-image-wrapper">
+          <p class="com-p-2">Check Out My</p>
+          <img class="social-image" src="images/instagram.svg">
+          <img class="social-image" src="images/behance.svg">
+          <img class="social-image" src="images/dribble.svg">
+        </div>
+        <img class="footer-logo" src="images/Footer-Logo.png">
       </div>
+      <div class="gradient"></div>
+      <div class="gradient2"></div>
     </div>
-  </section>
-  <section id="EXPERIENCE" class="fifth">
-    <div class="container">
-      <div class="title-wrapper">
-        <h1 class="po-title">
-          EXPERIENCE
-        </h1>
-        <p class="title-paragraph">
-          Work Experience & Projects
-        </p>
-        </div>
-
-        <div class="grid">
-        <div class="a box">
-          <p class="title-paragraph">
-            Since 2020, I've created a ton of designs, 
-            building my profession with Vegaswap as I 
-            mature and get new knowledge through creating.
-          </p>
-        </div>
-        <div class="b not-box">
-          <h1 class="ex-sub-title">
-            UI/UX  Designer
-          </h1>
-          <p class="special-title-paragraph">
-            Junior UI Designer
-          </p>
-        </div>
-        <div class="c box">
-          <p class="title-paragraph">
-            Building several 3D designs and spending endless 
-            hours learning has helped me become one of the industry's 
-            finest 3D designers.
-          </p>
-        </div>
-
-        <div class="d divider">
-          <img class="ce-image" src="images/center.svg">
-        </div>
-
-        <div class="e not-box">
-          <h1 class="ex-sub-title">
-            Website Designer
-          </h1>
-          <p class="ex-title-paragraph">
-            Junior Website Designer
-          </p>
-        </div>
-        <div class="f box">
-          <p class="title-paragraph">
-            I've completed some personal projects that are 
-            still relatively young, but I am aware of the 
-            effort and commitment required to complete a project.
-          </p>
-        </div>
-        <div class="g not-box">
-          <h1 class="ex-sub-title">
-            3D Graphic Artist
-          </h1>
-          <p class="ex-title-paragraph">
-            Owned Project
-          </p>
-        </div>
-      </div>
     </div>
+    </footer>  
 
-  </section>
-  <footer id="CONTACTS" class="footer">
-    <div class="container">
-      <div class="form-wrapper">
-
-    <div class="fr-content">
-      <h2 class="form-heading">Fill up the form right here</h2>
-
-      <form class="form-size" action="">
-        <div class="form-group">
-          <label for="firstName"></label>
-          <input type="text" id="firstName" name="firstName">
-        </div>
-        
-        <div class="form-group">
-          <label for="lastName"></label>
-          <input type="text" id="lastName" name="lastname">
-        </div>
-        
-        <div class="form-group-email">
-          <label for="email"></label>
-          <input type="text" id="email" name="email">
-        </div>
-
-        <div class="form-group">
-          <label for="message"></label>
-          <textarea name="type" id="message" cols="30" rows="10"></textarea>
-        </div>
-      </form>
-      <button class="send-button">SEND MESSAGE</button>
-    </div>
-    <div class="form-content">
-      <h2 class="form-check">CHECK US RIGHT HERE!</h2>
-      <p class="form-paragraph">
-        We can provide elegantly crafted solutions to assist you advance your project. 
-        If our ideals are compatible, I'd be pleased to work with you to make your initiative
-         a success. Use the form or send an email to contact@hexagon.com to get in touch with us.
-      </p>
-      <div class="social-image-wrapper">
-        <p class="com-p-2">Check Out My</p>
-        <img class="social-image" src="images/instagram.svg">
-        <img class="social-image" src="images/behance.svg">
-        <img class="social-image" src="images/dribble.svg">
-      </div>
-      <img class="footer-logo" src="images/Footer-Logo.png">
-    </div>
-    <div class="gradient"></div>
-    <div class="gradient2"></div>
-  </div>
-  </div>
-  </footer>  
-</body>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
